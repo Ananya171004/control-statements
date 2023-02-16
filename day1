@@ -1,0 +1,116 @@
+# a>b
+'''
+a=int(input())
+b=int(input())
+if a>b:
+    print("a is greater")
+else:
+    print(" b is greater")
+'''
+# even or odd w/o using relational or arithmetic opr  (check by bitwise if least sig is 0 then even else odd )
+'''
+a=int(input())
+if a&1==0:
+    print("even")
+else:
+    print("odd")
+'''
+# check whether the num is inbetween 1-100 by the user
+'''
+a=int(input())
+if(a>1)&(a<100):
+    print("in range")
+else:
+    print("not in range")
+'''
+
+
+# script where user will enter cost price and selling price of a product. find whether it is in profit or loss
+'''
+sp=int(input())
+cp=int(input())
+if sp>cp:
+    print("PROFIT")
+else:
+    print("LOSS")
+'''
+# check whether the year is leap or not
+'''
+a=int(input())
+if a%4==0:
+    print("IT IS A LEAP YEAR")
+else:
+    print("not leap year")
+
+'''
+# check whether the least significant value is set
+'''
+a=int(input())
+if a&1==0:
+    print("it is a set")
+else:
+    print("not set")
+'''
+# swap two nums using 1. w/o third variable 2. using third variable 3. using bitwise opr
+'''
+a=int(input())
+b=int(input())
+a=a+b
+b=a-b
+a=a-b
+print(a,b)
+
+
+a=int(input())
+b=int(input())
+c=a
+a=b
+b=c
+print(a,b)
+
+a=int(input())
+b=int(input())
+a=a^b
+b=a^b
+a=a^b
+print(a,b)
+'''
+# multiply any num with 64 w/o using arithmetic opr
+'''
+a=int(input())
+b=a<<6
+print(a)
+'''
+
+# multiply any num 65
+'''
+a=int(input())
+b=(a<<6)+1
+print(a)
+'''
+# to divide any num by 32 w/o using arithmetic opr
+'''
+a=int(input())
+b=a>>5
+print(a)
+'''
+# to enter number of days and print year, weeks and remaining days.
+'''
+d=int(input())
+y=int(d/365)
+w=int((d%365)/7)
+dl=int((d%365)%7)
+print(y,w,dl)
+'''
+
+# input an angle to check whether the triangle is valid or not
+'''
+a=int(input())
+b=int(input())
+c=int(input())
+s=a+b+c
+if s==180:
+    print("triangle is valid")
+else:
+    print("invalid triangle")
+'''
